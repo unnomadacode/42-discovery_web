@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+  
+</head>
+<body>
+  <button id="mi-boton">Cambiar color</button>
+  <script>
+    function cambiarColor() {
+      var color = "#" + Math.random().toString(16).slice(2, 8);
+      document.body.style.backgroundColor = color;
+    }
+
+    document.getElementById("mi-boton").addEventListener("click", cambiarColor);
+  </script>
+</body>
+</html>

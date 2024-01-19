@@ -1,0 +1,53 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    font: 400 15px/1.8 "Lato", sans-serif;
+    color: #777;
+  }
+  
+  .img-1, .img-2 {
+    position: relative;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  .img-1 {
+    background-image: url("https://static.vecteezy.com/system/resources/previews/001/954/963/non_2x/sand-on-the-beach-for-texture-or-background-free-photo.jpg");
+    min-height: 100%;
+  }
+  
+  .img-2 {
+    background-image: url("https://www.cuadrostock.com/278626/teal-ocean-waves-from-above-i.jpg");
+    min-height: 100%;
+  }
+  
+  .caption {
+    position: absolute;
+    left: 0;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    color: #000;
+  }
+  
+  .caption span.border {
+    background-color: #11111100;
+    color: #fff;
+    padding: 10px;
+    font-size: 40px;
+    letter-spacing: 10px;
+    text-shadow: 5px 4px 7px rgba(0, 0, 0, 0.311);
+  }
+  
+  .text-block {
+    color: #ffffff;
+    background-color:black;
+    text-align:center;
+    padding:20px 80px;
+    text-align: justify;
+    font-size: 30px;
+    font-style: italic;
+  }
+  
